@@ -2,6 +2,7 @@ body {
   background-color: #1f2937;
 }
 
+/*Header*/
 #header {
   display: flex;
   justify-content: space-evenly;
@@ -10,7 +11,7 @@ body {
 
 #header-links {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
 h2,
@@ -26,4 +27,46 @@ h2 {
 h3 {
   margin-top: 10px;
   font-weight: normal;
+}
+
+/*Upper Mid Section*/
+p {
+  color: white;
+  margin: 0;
+}
+
+strong {
+  font-size: 48px;
+}
+
+#rectangle {
+  background-color: gray;
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-style: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+}
+
+#mid-section {
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+}
+
+#mid-container {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  gap: 100px;
 }
