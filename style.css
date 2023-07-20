@@ -58,15 +58,45 @@ button {
   font-size: 18px;
 }
 
-#mid-section {
+#uppermid-section {
   display: flex;
   width: 350px;
   flex-wrap: wrap;
 }
 
-#mid-container {
+#uppermid-container {
   display: flex;
   margin-top: 120px;
   justify-content: center;
   gap: 100px;
+}
+
+/*Mid Section*/
+#mid-container {
+  display: flex;
+  background-color: white;
+  height: 500px;
+  width: auto;
+  margin-top: 100px;
+}
+
+#lowermid-container {
+  display: flex;
+  background-color: lightgray;
+  height: 400px;
+  width: auto;
+}
+
+#topfooter-container {
+  display: flex;
+  background-color: white;
+  height: 250px;
+  width: auto;
+}
+
+#footer-container {
+  display: flex;
+  background-color: 1f2937;
+  height: 80px;
+  width: auto;
 }
