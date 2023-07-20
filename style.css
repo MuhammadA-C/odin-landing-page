@@ -1,1 +1,29 @@
+body {
+  background-color: #1f2937;
+}
 
+#header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 80px;
+}
+
+#header-links {
+  display: flex;
+  gap: 50px;
+}
+
+h2,
+h3 {
+  color: white;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  font-weight: normal;
+}
